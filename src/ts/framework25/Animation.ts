@@ -3,7 +3,7 @@ import {iAnimatable} from "./types/iAnimatable";
 export class Animation {
     private canvas: HTMLCanvasElement;
     private ctx: CanvasRenderingContext2D;
-    private iAnimatables: iAnimatable[];
+    iAnimatables: iAnimatable[];
     private requestAnimationFrameID: number;
 
     constructor(canvas: HTMLCanvasElement, ctx: CanvasRenderingContext2D, animatables: iAnimatable[] = []) {
